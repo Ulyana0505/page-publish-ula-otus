@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "lint": "prettier --check",
-    "lint:fix": "prettier --write ."
+    "start": "node src/index.js"
   },
   "author": "",
   "license": "ISC",

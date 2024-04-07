@@ -1,19 +1,3 @@
-/*
-https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
-https://github.com/settings/tokens
-git push https://<TOKEN>@github.com/<username>/<repository>.git
-
---project=project.json
---dir=/path/to/project
---login=<username>
---token=<TOKEN>
---build -b
---push  -p
-
-node src/index.js --project=./src/project.json
-node src/index.js -p --dir=/path/to/project --login=jijio --token=lkjoh -bp
-*/
-
 const readline = require("readline").createInterface({
     input: process.stdin,
     output: process.stdout
