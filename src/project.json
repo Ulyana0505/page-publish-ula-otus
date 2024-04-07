@@ -1,0 +1,8 @@
+{
+  "build": true,
+  "push": true,
+  "dir": "",
+  "login": "",
+  "token": "",
+  "repo": ""
+}
